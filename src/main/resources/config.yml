@@ -1,0 +1,18 @@
+fake-player:
+  metadata-keys:
+    - NPC
+    - fakeplayer
+    - fake-player
+    - FakePlayer
+  name-patterns:
+    - '^FakePlayer.*'
+    - '^Bot_.*'
+
+menu:
+  title-prefix: '&8投票'
+  page-size: 28
+
+vote:
+  check-expired-every-seconds: 30
+  min-admin-op-level: 2
+

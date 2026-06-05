@@ -1,0 +1,28 @@
+name: Vote
+version: 1.0.1
+main: com.github.bentianjia.vote.VotePlugin
+api-version: '1.21.4'
+author: bentianjia
+description: Persistent vote plugin with GUI voting and admin workflows.
+
+commands:
+  vote:
+    description: 打开投票菜单或管理投票
+    usage: /vote
+
+permissions:
+  vote.vote:
+    description: 允许打开投票菜单并投票
+    default: true
+  vote.accept:
+    description: 允许投赞成票
+    default: true
+  vote.reject:
+    description: 允许投反对票
+    default: true
+  vote.admin:
+    description: 允许创建、编辑、删除和查看投票命令
+    default: false
+  vote.fake:
+    description: 标记不会计入投票在线人数的假人
+    default: false

@@ -1,0 +1,7 @@
+.deps/
+build/
+*.class
+*.jar
+claude-dangerous.bat
+votes.yml
+
